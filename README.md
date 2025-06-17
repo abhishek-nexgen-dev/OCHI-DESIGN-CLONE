@@ -6,7 +6,6 @@ play for
 card section
 ready to start a Project
 
-
 https://newengen.com/
 
 https://telescope.fyi/
