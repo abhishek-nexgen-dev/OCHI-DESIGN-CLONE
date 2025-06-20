@@ -44,7 +44,12 @@ const About = () => {
 
       <div className="Approch_Sec w-full h-[40%] min-[995px]:h-[35%] flex flex-col min-[761px]:flex-row">
         <div className="Approch_Sec_Part1  h-full w-[40%]">
-           <h1 className='text-[3vw] text-black font-normal leading-[3.7vw] px-10 pt-10'>Our Approach</h1>
+           <h1 className='text-[3.8vw] text-black font-normal leading-[3.7vw] px-10 pt-10'>Our Approach</h1>
+           <button className='bg-black w-full flex text-white px-5 py-[3vh] rounded-full mt-5 ml-10'>
+
+        <h4 className='text-[1rem]'>Read Me</h4>
+<div className="circle bg-white h-[4%] w-[4%] ml-[3vw] rounded-full"></div>
+           </button>
         </div>
 
            <div className="Approch_Sec_Part2 w-full min-[761px]:w-[60%] h-full py-[5vh] px-[3vw] flex flex-col justify-end items-start">
