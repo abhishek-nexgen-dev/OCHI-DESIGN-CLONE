@@ -113,7 +113,7 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen bg-[#f2f2f2] flex flex-col">
+    <div className="w-screen h-screen bg-[#f2f2f2] flex flex-col overflow-hidden">
       <div className="text-structure  px-[2vw] py-[2vw] flex flex-col justify-center w-full h-[82%] relative">
         <div className="masker font-[FounderGrotesque]">
           <h1 className="text-[9vw] uppercase leading-1">We Create</h1>
