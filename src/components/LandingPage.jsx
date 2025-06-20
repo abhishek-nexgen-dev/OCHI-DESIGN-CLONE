@@ -77,7 +77,9 @@ const LandingPage = () => {
   useGSAP(() => {
     gsap.to(ImageRef.current, {
       width: '10%',
-      duration: 0.8,
+      duration: 1,
+      delay: 0.5,
+      animationTimingFunction: 'ease-in-out',
       ease: 'power2.out',
     });
 
@@ -123,7 +125,7 @@ const LandingPage = () => {
               src={LandingPageImage}
               ref={ImageRef}
               alt=""
-              className="h-[42%] rounded-md w-[1%] mr-[1vw]"
+              className="h-[42%] rounded-md w-[0%] mr-[1vw]"
             />
             <span className="mb-[1vh]" ref={text2Ref}>
               eye-opening
