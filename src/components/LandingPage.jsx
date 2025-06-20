@@ -114,13 +114,14 @@ const LandingPage = () => {
 
   return (
     <div className="w-screen h-screen bg-[#f2f2f2] flex flex-col overflow-hidden">
-      <div className="text-structure  px-[2vw] py-[2vw] flex flex-col justify-center w-full h-[82%] relative">
+      <div className="text-structure  px-[2vw] py-[2vw] flex flex-col justify-center w-full
+      h-[60%]  min-[700px]:h-[82%] relative">
         <div className="masker font-[FounderGrotesque]">
-          <h1 className="text-[9vw] uppercase leading-1">We Create</h1>
+          <h1 className="text-[4rem] min-[700px]:text-[9vw] uppercase leading-1">We Create</h1>
         </div>
 
         <div className="masker font-[FounderGrotesque] flex h-fit">
-          <h1 className="text-[9vw] uppercase flex items-center w-full">
+          <h1 className="text-[4rem] min-[700px]:text-[9vw] uppercase flex items-center w-full">
             <img
               src={LandingPageImage}
               ref={ImageRef}
@@ -134,11 +135,11 @@ const LandingPage = () => {
         </div>
 
         <div className="masker font-[FounderGrotesque]">
-          <h1 className="text-[9vw] uppercase leading-1">presentations</h1>
+          <h1 className="text-[4rem] min-[700px]:text-[9vw]  uppercase leading-1">presentations</h1>
         </div>
       </div>
 
-      <div className="w-full h-[18%] px-[2.5vw] py-[3vh] flex justify-between font-light border-t border-zinc-500">
+      <div className="w-full h-[40%] min-[700px]:h-[18%] px-[2.5vw] py-[3vh]  flex flex-col min-[700px]:flex-row gap-[3vh] min-[700px]:gap-0 min-[700px]:justify-between font-light border-t border-zinc-500">
         <p>For public and private companies</p>
         <p>From the first pitch to IPO</p>
         <div className="w-[20%] flex h-[5vh]">

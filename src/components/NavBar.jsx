@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className="nav-part1  h-full w-[15%] flex items-center">
         <img src={logo} alt="Logo" className="h-[60%] object-contain " />
       </div>
-      <div className="nav-part2  flex-[2] h-full flex items-center justify-end">
+      <div className="nav-part2  flex-[2] h-full hidden min-[900px]:flex items-center justify-end">
         {['Services', 'Our Word', 'About Us', 'Insights', 'Contact'].map(
           (item, index) => (
             <a
