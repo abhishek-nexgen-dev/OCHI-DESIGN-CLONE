@@ -54,7 +54,6 @@ const LandingPage = () => {
     });
   };
 
-
   let ProjectMouseEnter = () => {
     gsap.to(StartProjectRef.current, {
       backgroundColor: '#000',
@@ -64,13 +63,12 @@ const LandingPage = () => {
     });
   };
 
-
   let ProjectMouseLeave = () => {
     gsap.to(StartProjectRef.current, {
       backgroundColor: 'transparent',
       color: 'black',
-      fontWeight: 400,      
-       duration: 0,
+      fontWeight: 400,
+      duration: 0,
     });
   };
 
@@ -87,16 +85,13 @@ const LandingPage = () => {
       StartProjectRef.current.addEventListener('mouseenter', () => {
         circleMouseEnter();
 
-
         ProjectMouseEnter();
       });
 
       StartProjectRef.current.addEventListener('mouseleave', () => {
-          circleMouseLeave();
-
+        circleMouseLeave();
 
         ProjectMouseLeave();
-
       });
     }
 
@@ -114,10 +109,14 @@ const LandingPage = () => {
 
   return (
     <div className="w-screen h-screen bg-[#f2f2f2] flex flex-col overflow-hidden">
-      <div className="text-structure  px-[2vw] py-[2vw] flex flex-col justify-center w-full
-      h-[60%]  min-[700px]:h-[82%] relative">
+      <div
+        className="text-structure  px-[2vw] py-[2vw] flex flex-col justify-center w-full
+      h-[60%]  min-[700px]:h-[82%] relative"
+      >
         <div className="masker font-[FounderGrotesque]">
-          <h1 className="text-[4rem] min-[700px]:text-[9vw] uppercase leading-1">We Create</h1>
+          <h1 className="text-[4rem] min-[700px]:text-[9vw] uppercase leading-1">
+            We Create
+          </h1>
         </div>
 
         <div className="masker font-[FounderGrotesque] flex h-fit">
@@ -135,7 +134,9 @@ const LandingPage = () => {
         </div>
 
         <div className="masker font-[FounderGrotesque]">
-          <h1 className="text-[4rem] min-[700px]:text-[9vw]  uppercase leading-1">presentations</h1>
+          <h1 className="text-[4rem] min-[700px]:text-[9vw]  uppercase leading-1">
+            presentations
+          </h1>
         </div>
       </div>
 
